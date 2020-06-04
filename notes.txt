@@ -1,4 +1,5 @@
 conda env export > environment.yml
+conda env create -f environment.yml --prefix ./conda-env
 
 conda list -e > req.txt
 
